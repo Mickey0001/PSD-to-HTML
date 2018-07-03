@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 h1{
   font-size: 3em;
@@ -31,6 +32,13 @@ h2{
 }
 .grey{
   color: #898989;
+}
+
+.fa-ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 5px;
+  font-size: 1.2em;
 }
 .third {
   width: 25%;
