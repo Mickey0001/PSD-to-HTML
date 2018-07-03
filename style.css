@@ -2,10 +2,50 @@
   margin: 0;
   padding: 0;
 }
+h1{
+  font-size: 3em;
+  font-family: Pacifico;
+}
+p{
+  font-size: 1.2em;
+  font-family: Abel;
+}
+h2{
+  font-weight: bold;
+  font-family: Abel;
+}
 #heading{
   height: 100vh;
-  background-image: url("https://images2.alphacoders.com/672/672123.jpg");
+  background-image: url("https://images.pexels.com/photos/861103/pexels-photo-861103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size:     cover;                     
-    background-repeat:   no-repeat;
-    background-position: center center; 
+  background-repeat:   no-repeat;
+  background-position: center center; 
+  color: #fff;
 }
+#notify{
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.greenie{
+  color: #2acb72;
+}
+.grey{
+  color: #898989;
+}
+.third {
+  width: 25%;
+  display: inline-block;
+  margin: 3%;
+}
+#theme{
+  margin: 5% 10%;
+}
+#video{
+  padding: 5% 10%;
+  background-color: #898989;
+}
+.half{
+  width: 40%;
+  display: inline-block;
+}
+
