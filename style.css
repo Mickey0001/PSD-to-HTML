@@ -46,14 +46,16 @@ h2{
   margin: 3%;
 }
 #theme{
-  margin: 5% 10%;
+  margin: 5% 5%;
 }
 #video{
-  padding: 5% 10%;
+  padding: 5% 5%;
   background-color: #898989;
 }
 .half{
   width: 40%;
   display: inline-block;
 }
-
+.fab{
+  display: initial;
+}
