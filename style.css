@@ -53,8 +53,10 @@ h2{
   background-color: #898989;
 }
 .half{
-  width: 40%;
+  width: 35%;
   display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .fab{
   display: initial;
@@ -74,15 +76,18 @@ footer{
   text-align: center;
 }
 form{
-  width: 100%;
   display: inline;
 }
-input[type=text]{
+input[type=email]{
   width:60%;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 20px 0px 0px 20px;
 }
 input[type=submit]{
-  width:35%;
+  width:30%;
   color: #fff;
+  padding: 10px;
   background: #2acb72;
   border: 2px solid #2acb72;;
   border-radius: 0px 20px 20px 0px;
