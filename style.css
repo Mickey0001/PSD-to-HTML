@@ -1,6 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
+html, body {
+  margin:0 !important;
+  padding:0 !important;
+  width: 100vw;
 }
 h1{
   font-size: 3em;
@@ -28,7 +29,6 @@ h2{
 }
 .greenie{
   color: #2acb72;
-  margin: 10% 10% 10% 10%;
 }
 .grey{
   color: #898989;
@@ -80,18 +80,36 @@ footer{
 }
 form{
   display: inline;
+  margin: 10px;
 }
 input[type=email]{
-  width:60%;
+  width:40%;
   padding: 10px;
   border: 2px solid #fff;
   border-radius: 20px 0px 0px 20px;
 }
 input[type=submit]{
-  width:30%;
+  width:20%;
   color: #fff;
   padding: 10px;
   background: #2acb72;
   border: 2px solid #2acb72;;
   border-radius: 0px 20px 20px 0px;
 }
+@media (max-width: 400px) {
+  .half{
+    width: 100vw;
+  }
+  iframe{
+    margin-top: 15px;
+    width:80%;
+  }
+  .third{
+    display: inline;
+    text-align: center;  
+  }
+  .gears{
+    text-align: center;
+    margin: 20px;
+  }
+  }
