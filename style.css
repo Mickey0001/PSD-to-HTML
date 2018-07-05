@@ -1,7 +1,6 @@
-html, body {
-  margin:0 !important;
-  padding:0 !important;
-  width: 100vw;
+body {
+  margin: auto;
+  padding:0;
 }
 h1{
   font-size: 3em;
